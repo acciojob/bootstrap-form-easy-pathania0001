@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.wrapper{
+ display:grid;
+ grid-template-columns:1fr 1fr 1fr ;
+}
+.invalid-feedback {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
+input:invalid:focus + .invalid-feedback,
+select:invalid:focus + .invalid-feedback,
+input:invalid:required:focus + .invalid-feedback {
+  display: block;
+}
