@@ -15,3 +15,6 @@ select:invalid:focus + .invalid-feedback,
 input:invalid:required:focus + .invalid-feedback {
   display: block;
 }
+.form-label{
+text-align:center;
+}
